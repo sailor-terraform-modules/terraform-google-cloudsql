@@ -57,7 +57,7 @@ variable "disk_autoresize" {
 variable "backup_enabled" {
   description = "True if backup configuration is enabled"
   type        = bool
-  default     = false
+  default     = true
 }
 
 variable "binary_log_enabled" {
